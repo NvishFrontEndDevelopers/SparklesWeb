@@ -2,23 +2,23 @@
 A Starter Template [ Gulp Build System ] for Fronted Workflow.
 
 
-## Dependencies
+## Pre Installed
 
 - bootstrap
 - jquery
-- popper.js
+- Sass
 
 ## Installation
 
 ### Step 1:
 
 Clone repositrory
+
 git clone https://github.com/NvishFrontEndDevelopers/SparklesWeb.git
 
 ### Step 2: 
-
-npm install
-npm install -g gulp
+- npm install 
+- npm install -g gulp
 
 
 ## Commands
