@@ -19,7 +19,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div class="container">
-        <a class="navbar-brand wow flipInY" href="#" data-wow-duration="2s" data-wow-delay="0.7s">Sparkles Web</a>
+        <a class="navbar-brand wow flipInY" href="#" data-wow-duration="2s" data-wow-delay="0.7s">Sparkles Net</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -34,7 +34,7 @@
               <a class="nav-link wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s" href="#">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s" href="#">Services</a>
+              <a class="nav-link wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s" href="#">Service</a>
             </li>
             <li class="nav-item">
               <a class="nav-link wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.4s" href="#">Contact</a>
@@ -66,36 +66,8 @@
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="../node_modules/jquery/dist/jquery.min.js"></script>
     <script src="../node_modules/popper.js/dist/umd/popper.min.js"></script>
-     <script src="../node_modules/wowjs/dist/wow.min.js"></script>
     <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 
-     <script>
-              new WOW().init();
-
-              $(document).ready(function(){
-  // Add smooth scrolling to all links
-  $("a").on('click', function(event) {
-
-    // Make sure this.hash has a value before overriding default behavior
-    if (this.hash !== "") {
-      // Prevent default anchor click behavior
-      event.preventDefault();
-
-      // Store hash
-      var hash = this.hash;
-
-      // Using jQuery's animate() method to add smooth page scroll
-      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-      $('html, body').animate({
-        scrollTop: $(hash).offset().top
-      }, 800, function(){
-   
-        // Add hash (#) to URL when done scrolling (default click behavior)
-        window.location.hash = hash;
-      });
-    } // End if
-  });
-});
-              </script>
+     
   </body>
 </html>
